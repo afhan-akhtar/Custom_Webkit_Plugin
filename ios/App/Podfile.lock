@@ -1,0 +1,28 @@
+PODS:
+  - Capacitor (7.0.1):
+    - CapacitorCordova
+  - CapacitorCordova (7.0.1)
+  - CustomWebkit (0.0.1):
+    - Capacitor
+
+DEPENDENCIES:
+  - "Capacitor (from `../../node_modules/@capacitor/ios`)"
+  - "CapacitorCordova (from `../../node_modules/@capacitor/ios`)"
+  - CustomWebkit (from `../../plugins`)
+
+EXTERNAL SOURCES:
+  Capacitor:
+    :path: "../../node_modules/@capacitor/ios"
+  CapacitorCordova:
+    :path: "../../node_modules/@capacitor/ios"
+  CustomWebkit:
+    :path: "../../plugins"
+
+SPEC CHECKSUMS:
+  Capacitor: de199cba6c8b20995428ad0b7cb0bc6ca625ffd4
+  CapacitorCordova: 63d476958d5022d76f197031e8b7ea3519988c64
+  CustomWebkit: 58aed0f6a335f6524ea4b04e5e2fd92b6865df52
+
+PODFILE CHECKSUM: 92c4dfdc84a06dc1b321a67f42d2ca5fbc6b77ef
+
+COCOAPODS: 1.16.2
